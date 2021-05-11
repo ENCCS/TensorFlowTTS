@@ -2,6 +2,6 @@ FROM tensorflow/tensorflow:2.4.1-gpu
 RUN apt-get update
 RUN apt-get install -y zsh tmux wget git libsndfile1
 RUN pip install ipython && \
-    pip install git+https://github.com/TensorSpeech/TensorflowTTS.git
-RUN mkdir /workspace
+    pip install git+https://github.com/TensorFlowTTS.git
+        RUN mkdir /workspace
 WORKDIR /workspace
