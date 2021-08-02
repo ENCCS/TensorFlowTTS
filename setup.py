@@ -23,7 +23,7 @@ if LooseVersion(sys.version) < LooseVersion("3.6"):
 requirements = {
     "install": [
         "tensorflow-gpu==2.4.1",
-        "tensorflow-addons>=0.10.0",
+        "tensorflow-addons==0.13.0",
         "setuptools>=38.5.1",
         "huggingface_hub==0.0.8",
         "librosa>=0.7.0",
